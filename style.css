@@ -99,22 +99,18 @@ img {
 @media (max-width: 1024px) {
     .top-links {
         flex-direction: row;
-    }
+        align-items: center;
+  }
     .news-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 1024px) {
-  .top-links {
-    flex-direction: row;
-  }
-}
-
 @media (max-width: 768px) {
     .top-links {
         flex-direction: row;
-    }
+        align-items: center;
+  }
     .news-container {
         grid-template-columns: 1fr;
     }
@@ -126,7 +122,8 @@ img {
 @media (max-width: 320px) {
     .top-links {
         flex-direction: row;
-    }
+        align-items: center;
+  }
     body {
         font-size: 15px;
     }
