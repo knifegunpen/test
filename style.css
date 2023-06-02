@@ -3,7 +3,8 @@ body {
     background-color: #ffffff;
     margin: 0px;
     padding: 0px;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 header {
@@ -95,9 +96,6 @@ img {
 }
 
 @media (max-width: 320px) {
-    body {
-        font-size: 15px;
-    }
     .news-container {
         grid-template-columns: 1fr;
     }
