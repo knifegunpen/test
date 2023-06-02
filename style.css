@@ -302,7 +302,7 @@ section {
 }
 
 .site-title > a {
-    background-image: url(/knifegunpen/test/blob/main/kgp.png);
+    background-image: url(/kgp.png);
     background-repeat: no-repeat;
     background-size: 100%;
     border: none;
@@ -314,7 +314,7 @@ section {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
  
     .site-title > a {
-        background-image: url(/knifegunpen/test/blob/main/kgp2x.png);
+        background-image: url(/kgp2x.png);
     }
 }
 
